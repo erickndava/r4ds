@@ -18,3 +18,7 @@ preg <- tribble(
 )
 preg
 
+#Exercises separate()
+library(tidyverse)
+tibble(x=c("a,b,c", "d,e,f,g","h,i,j")) %>% 
+  separate(x, c("one","two","three"), remove = FALSE)
