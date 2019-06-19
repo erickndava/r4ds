@@ -61,3 +61,13 @@ quadratic <- function(a,b,c){
   (-b+sqrt(b*b-4*a*c))/(2*a)
 }
 quadratic(3,4,5)
+
+
+##More functons lessons from DataCamp material
+myFirstFun <- function(n){
+  #compute the square of an integr
+  n*n
+}
+
+k <- 10
+myFirstFun(k)
